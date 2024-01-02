@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6374658540716107265}
   - component: {fileID: 3059236878064371674}
+  - component: {fileID: 2525991642624670126}
+  - component: {fileID: 1681667095076018942}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -68,6 +70,37 @@ CircleCollider2D:
   m_Offset: {x: -0.00000500679, y: -0.00000023841858}
   serializedVersion: 2
   m_Radius: 0.49999997
+--- !u!114 &2525991642624670126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483345091671331145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1681667095076018942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483345091671331145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2e1c49fc8c031d246bcfc716d4ea560a, type: 2}
 --- !u!1 &2953397396730684696
 GameObject:
   m_ObjectHideFlags: 0
