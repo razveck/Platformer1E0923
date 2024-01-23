@@ -9,6 +9,7 @@ TagManager:
   - End
   - Interactable
   - Coin
+  - PlayerFeet
   layers:
   - Default
   - TransparentFX
